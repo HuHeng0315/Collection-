@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class CollectionDemo {
+	/*
+	 * java.util.Collection 是集合工具类。用来对集合进行操作
+	 * 1.addAll(Collection c,T...elements):创建集合的同时，添加多个元素
+	 * 2.shuffle(List list)打乱集合顺序
+	 */
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+//		list.add("QAQ");
+//		list.add("`_`");
+//		list.add("~_~");
+//		list.add("=_=");
+		Collections.addAll(list, "QAQ","`_`","~_~","=_=");
+		System.out.println(list);
+		
+		
+
+	}
+
+}
